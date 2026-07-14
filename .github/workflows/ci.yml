@@ -26,8 +26,8 @@ jobs:
       - name: Validate HTML (html-validate)
         run: npx --yes html-validate "**/*.html" || true
 
-        - name: Greeting
-          run: echo "Evergreen Quote CI run by ${{ github.actor }}"
+      - name: Greeting
+        run: echo "Evergreen Quote CI run by ${{ github.actor }}"
 
 
       - name: Smoke-check required files
