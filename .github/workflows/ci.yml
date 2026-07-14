@@ -1,4 +1,4 @@
-cat# Evergreen Quote — provided CI workflow.
+# Evergreen Quote — provided CI workflow.
 # Capstone learners: enable this by copying it to .github/workflows/ci.yml
 # in your repo and pushing. Do not modify the workflow itself.
 
