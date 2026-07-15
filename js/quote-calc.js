@@ -7,6 +7,7 @@ var ratePerThousand = {
   auto: 1.2,
   home: 0.9,
   renters: 0.4,
+  condo: 0.7, 
 };
 
 function calculatePremium(coverageType, coverageAmount) {
